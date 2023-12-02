@@ -7,8 +7,8 @@ import sys
 from tensorflow.keras.models import load_model
 
 # Load the pre-trained model
-model_path = './Deep4SNet/model_Deep4SNet.h5'
-weights_path = './Deep4SNet/weights_Deep4SNet.h5'
+model_path = './deep4snet/model_Deep4SNet.h5'
+weights_path = './deep4snet/weights_Deep4SNet.h5'
 model = load_model(model_path)
 model.load_weights(weights_path)
 
